@@ -21,7 +21,7 @@ button.addEventListener("click", hideInstructions);
 function hideInstructions() {
     console.log(this);
 
-    let setOfQuestions = document.querySelector(".question");
+    let setOfQuestions = document.getElementsByClassName("question");
 
     if (this.innerHTML === "Hide Instructions") {
         for (let question of setOfQuestions) {
